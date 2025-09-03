@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <main>
+        <div class="Card-Parent">
+            <div class="Before-Clicked" id="before">
+                <button onclick="ClickedMuka()" style="border: none; outline: none; background-color: white;"><img src="img/Satria.png" alt="" style="width: 20vw; height: 40vh;" onmouseover="HoverMyselfBefore()" onmouseout="HideContent(TextClick, 'hidden')"></button>
+                <h4 id="ClickMeText">Click Me</h4>
+            </div>
+            <div class="After-Clicked" id="after">
+                <h1>Hello! I'm Satria</h1>
+                <h2>I’m a Game Developer & Web
+                Developer</h2>
+                <h2>Located in Bogor, Indonesia</h2>
+                <h2>Find Me Here!</h2>
+                <div class="Contact">
+                    <a href="">
+                        <img src="img/gitub.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/gitub.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/gitub.png" alt="" >
+                    </a>
+                    <a href="">
+                        <img src="img/gitub.png" alt="">
+                    </a>
+                </div>
+                <a href="" class="LearnMoreButton">Learn More</a>
+                <img src="img/Satria.png" alt="" class="myself">
+            </div>
+        </div>
+    </main>
+
+    <script src="card.js"></script>
+</body>
+</html>
