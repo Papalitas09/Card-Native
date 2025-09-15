@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-HideContent(AfterContent, 'hidden')
+HideContent(BeforeContent, 'hidden')
 HideContent(TextClick, 'hidden')
 
 function HoverMyselfBefore(){
